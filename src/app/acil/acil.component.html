@@ -1,0 +1,52 @@
+<ActionBar title="Acil Numaralar" class="action-label">
+  <NavigationButton text="Geri" android.systemIcon="ic_menu_back" (tap)="goBack()">
+  </NavigationButton>
+</ActionBar>
+
+<GridLayout class="coverImage"  rows="auto" columns="*">
+  <FlexboxLayout flexDirection="column" alignItems="center" style="margin-top:10% ;opacity: 0.7">
+    <Button
+      text="112  -  Acil Servis (Ambulans)"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onAmbulans()"
+
+    ></Button>
+    <Button
+      text="184  -  Sağlık Danışma"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onSaglik()"
+    ></Button>
+    <Button
+      text="184  -  Corona Danışma Hattı (COVID 19)"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onCorona()"
+    ></Button>
+    <Button
+      text="188  -  Cenaze Hizmetleri"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onCenaze()"
+    ></Button>
+    <Button
+      text="113  -  Beyaz Kod / Hastane Şiddet ve Taciz Yardım"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onBeyaz()"
+    ></Button>
+    <Button
+      text="171  -  Sigara Bırakma Danışma Hattı"
+      height="50"
+      width="250"
+      backgroundColor="#00ffff"
+      (tap)="onSigara()"
+    ></Button>
+  </FlexboxLayout>
+</GridLayout>

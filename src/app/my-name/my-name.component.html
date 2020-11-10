@@ -1,0 +1,54 @@
+<ActionBar title="Ana Sayfa" class="action-label">
+</ActionBar>
+
+<GridLayout class="coverImage">
+
+  <FlexboxLayout flexDirection="column" alignItems="center" >
+      <Button
+        style="
+          margin-top: 10px;
+         font-style: italic;
+         background-color: black;
+          color: #87ff2a;
+          font-size: 20px;
+        "
+        text="#EvdeKal"
+      ></Button>
+    <Button
+      style="
+      width: 600px;
+      margin-top: 45px;
+        background-color: #D71A21	;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+      "
+      text="Nöbetçi Eczaneler"
+      (tap)="eczaneAc()"
+    ></Button>
+    <Button
+      style="
+            width: 600px;
+
+        background-color: #D71A21;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+      "
+      text="Eczane Çalışma Saatleri"
+      (tap)="eczaneCalismaSaati()"
+    ></Button>
+    <Button
+      style="
+       width: 600px;
+        background-color: #D71A21;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+      "
+      text="Acil Telefon Numaraları"
+      (tap)="acilTelefonNumaralari()"
+    ></Button>
+
+  </FlexboxLayout>
+</GridLayout>

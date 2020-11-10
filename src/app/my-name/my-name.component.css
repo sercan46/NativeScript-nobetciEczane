@@ -1,0 +1,17 @@
+/* Add mobile styles for the component here.  */
+.coverImage {
+    background-image: url('~/images/wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.action-label {
+    color: #3C5AFD;
+    font-size: 20;
+    font-weight: bold;
+    vertical-align: center;
+}
+.alt{
+    position: fixed;
+    bottom: 0;
+}

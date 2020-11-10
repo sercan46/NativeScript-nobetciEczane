@@ -1,0 +1,20 @@
+<ActionBar title="Eczaneler" class="action-label">
+    <NavigationButton text="Geri" android.systemIcon="ic_menu_back" (tap)="goBack()">
+    </NavigationButton>
+  </ActionBar>
+
+<GridLayout>
+    <ListView [items]="eczaneler">
+       <ng-template let-item="item">
+           <StackLayout style="background-color:seashell;border-width: 5px; border-color:blueviolet;border-radius: 10px;">
+               <FlexboxLayout   [nsRouterLink]="['/item/plaka', item.name]">
+                <Image   src="~/images/eczanelogo.png" style="width: 150px; height: 150px;" stretch="aspectFit"></Image>
+                <Label style="margin-top: 30px;font-size: 18px;margin-left: 15px;color:dodgerblue;font-weight: bold;" [text]=item.name></Label>
+                <Label style="margin-top: 30px;font-size: 18px;margin-left: 15px;color:black;font-weight: bold;" text=-></Label>
+                <Label style="margin-top: 30px;font-size: 18px;margin-left: 15px;color:brown;font-weight: bold;" [text]=item.dist></Label>
+               </FlexboxLayout>
+           </StackLayout>
+       </ng-template>
+   </ListView>
+</GridLayout>
+

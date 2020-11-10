@@ -1,0 +1,12 @@
+/* Add mobile styles for the component here.  */
+.coverImage {
+    background-image: url('~/images/crop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.action-label {
+    color: #3C5AFD;
+    font-weight: bold;
+    vertical-align: center;
+}

@@ -1,0 +1,31 @@
+/* Add mobile styles for the component here.  */
+.action-label {
+    color: #3C5AFD;
+    font-weight: bold;
+    vertical-align: center;
+}
+/* Add mobile styles for the component here.  */
+.coverImage {
+    background-image: url('~/images/eczane.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.btn-img{
+    border-radius: 5;
+    border-width: 1;
+    color: white;
+    margin: 10;
+    font-size: 22;
+    border-color: #2b3c6a;
+    background-color: #D71A21;
+}
+.btn-img2{
+    border-radius: 5;
+    border-width: 1;
+    color: white;
+    margin: 10;
+    font-size: 22;
+    border-color: #2b3c6a;
+    background-color: green;
+}

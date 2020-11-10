@@ -1,0 +1,19 @@
+<ActionBar title="Eczane Detaylı Bilgi" class="action-label">
+    <NavigationButton text="Geri" android.systemIcon="ic_menu_back" (tap)="goBack()">
+    </NavigationButton>
+  </ActionBar>
+
+<GridLayout class="coverImage">
+                <FlexboxLayout flexDirection="column" alignItems="center" style="margin-top:400px;font-size: 20px; color:crimson;font-weight: bold;">
+                         <Label   [text]="names.name"></Label>
+                         <Label style="margin-top: 25px;" [text]="names.dist"></Label>
+                         <Label style="text-align: center;margin-top: 25px" [text]="names.address" textWrap="true"></Label>
+                         <StackLayout class="btn-img"  orientation="horizontal" padding="5"  (tap)="onArama()" >
+                          <Image src="https://www.freeiconspng.com/uploads/phone-call-icon-16.png"  width="10%"  marginRight="10"></Image>
+                          <Label [text]="names.phone" verticalAlignment="center"></Label>
+                       </StackLayout>
+                       <StackLayout orientation="horizontal" padding="15" (tap)="googleLinkAc()" >
+                       <Image src="https://pngimage.net/wp-content/uploads/2018/06/konum-png-3.png"  width="25%" height="100" marginRight="10"></Image>
+                    </StackLayout>
+                </FlexboxLayout>
+</GridLayout>

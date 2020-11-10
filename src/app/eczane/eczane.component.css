@@ -1,0 +1,16 @@
+/* Add mobile styles for the component here.  */
+.picker {
+    background-color: blanchedalmond;
+    color: red;
+    border-color: brown;
+    border-radius: 20;
+    border-width: 2;
+    width: 250;
+    height: 180;
+    vertical-align: middle;
+}
+.action-label {
+    color: #3C5AFD;
+    font-weight: bold;
+    vertical-align: center;
+}
